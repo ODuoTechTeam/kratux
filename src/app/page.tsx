@@ -45,7 +45,7 @@ function Nav() {
       initial={{ y: -64 }} animate={{ y: 0 }} transition={{ duration: 0.6, ease: "easeOut" }}
     >
       <div className="max-w-[1200px] mx-auto h-24 flex items-center justify-between px-6 md:px-10">
-        <Image src="/images/logo.png" alt="Kratux" width={280} height={64} className="h-14 w-auto" priority />
+        <Image src="/images/logo.png" alt="Kratux" width={400} height={92} className="h-20 w-auto" priority />
         <nav className="hidden md:flex items-center gap-10">
           {links.map((l) => (
             <a key={l.href} href={l.href} className="text-[15px] font-medium text-[var(--color-muted)] hover:text-[var(--color-foreground)] transition-colors relative group">
@@ -118,7 +118,7 @@ function Hero() {
 
 /* ─── PROOF BAR ─── */
 function ProofBar() {
-  const items = [{ num: "140+", text: "assistências técnicas" }, { num: "10+", text: "anos de experiência" }, { num: "500+", text: "PMEs atendidas" }, { num: "24h", text: "análise de crédito" }];
+  const items = [{ num: "140+", text: "assistências técnicas" }, { num: "17+", text: "anos de experiência" }, { num: "500+", text: "PMEs atendidas" }, { num: "24h", text: "análise de crédito" }];
   return (
     <div className="bg-[var(--color-surface)] border-b border-[var(--color-border)] py-5">
       <div className="max-w-[1200px] mx-auto px-6 md:px-10 flex flex-wrap justify-between gap-4">
@@ -167,7 +167,7 @@ function Problema() {
 /* ─── SOLUÇÃO ─── */
 function Solucao() {
   const pillars = [
-    { num: "01", title: "Qualidade de Ponta", desc: "Mesmo motor e componentes das marcas líderes. Certificação ISO. Metade do preço." },
+    { num: "01", title: "Qualidade de Ponta", desc: "Mesmo motor e componentes das marcas líderes. Certificação ISO." },
     { num: "02", title: "Preço Competitivo", desc: "Financiamento direto, sem intermediários. Análise de crédito em 24h. Condições flexíveis." },
     { num: "03", title: "Pós-Venda Real", desc: "140+ assistências no Brasil. Peças em 24h. Manutenção preventiva. Presença na sua operação." },
   ];
@@ -178,7 +178,7 @@ function Solucao() {
           <Image src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80" alt="Máquina pesada em obra" fill className="object-cover brightness-[0.6] contrast-110" unoptimized />
           <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-background)] to-transparent" />
           <div className="absolute bottom-8 left-8 right-8">
-            <p className="text-2xl font-bold leading-snug" style={{ fontFamily: "var(--font-display)" }}>Respaldada por mais de <span className="text-[var(--color-accent)]">10 anos</span> de experiência</p>
+            <p className="text-2xl font-bold leading-snug" style={{ fontFamily: "var(--font-display)" }}>Respaldada por mais de <span className="text-[var(--color-accent)]">17 anos</span> de experiência</p>
           </div>
         </Reveal>
         <div>
@@ -262,7 +262,7 @@ function Maquinas() {
     {
       id: "retroescavadeira", label: "Retroescavadeira",
       machines: [
-        { name: "KX870R", img: "/images/RETROESCAVADEIRA/KX870R 2.PNG", catalog: "/images/RETROESCAVADEIRA/Catálogo RETRO KX870R.pdf", specs: ["102 hp Weichai", "Turbo Diesel 4cc", "Tração 4x4"] },
+        { name: "KX870R", img: "/images/RETROESCAVADEIRA/KX870R 2.PNG", catalog: "/images/RETROESCAVADEIRA/Catálogo RETRO KX870R.pdf", specs: ["Peso Operacional: 8.200 kg", "Capacidade de Carga: 2.500 kg", "Potência: 102 hp"] },
       ],
     },
     {
@@ -424,7 +424,7 @@ function Maquinas() {
 function Numeros() {
   const items = [
     { num: "140+", label: "Assistências Técnicas" },
-    { num: "10+", label: "Anos de Experiência" },
+    { num: "17+", label: "Anos de Experiência" },
     { num: "500+", label: "PMEs Atendidas" },
     { num: "30%", label: "Economia em Manutenção" },
   ];
@@ -701,7 +701,7 @@ function Footer() {
       </div>
       <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-6 border-t border-white/[0.04] flex flex-col md:flex-row justify-between gap-2 text-[12px] text-white/20">
         <span>© 2026 Kratux. Todos os direitos reservados.</span>
-        <span>Respaldada por mais de 10 anos de experiência em máquinas pesadas.</span>
+        <span>Respaldada por mais de 17 anos de experiência em máquinas pesadas.</span>
       </div>
     </footer>
   );
