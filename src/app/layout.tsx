@@ -15,11 +15,11 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Kratux — Máquinas Pesadas para PMEs",
+  title: "Kratux — Máquinas Pesadas",
   description:
     "Máquinas pesadas com qualidade de ponta, preço competitivo e pós-venda de excelência. Crédito em 24h, 140+ assistências no Brasil.",
   openGraph: {
-    title: "Kratux — Máquinas Pesadas para PMEs",
+    title: "Kratux — Máquinas Pesadas",
     description:
       "Qualidade de ponta e preço competitivo com o pós-venda que o seu negócio merece.",
     locale: "pt_BR",

@@ -23,7 +23,7 @@ No test runner is configured.
 
 ## Architecture
 
-This is a **static marketing landing page** for Kratux, a heavy machinery company targeting Brazilian SMEs. There is no backend, no database, no API routes.
+This is a **static marketing landing page** for Kratux, a heavy machinery company. There is no backend, no database, no API routes.
 
 ### File Structure
 

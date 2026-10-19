@@ -118,7 +118,7 @@ function Hero() {
 
 /* ─── PROOF BAR ─── */
 function ProofBar() {
-  const items = [{ num: "140+", text: "assistências técnicas" }, { num: "17+", text: "anos de experiência" }, { num: "500+", text: "PMEs atendidas" }, { num: "24h", text: "análise de crédito" }];
+  const items = [{ num: "140+", text: "assistências técnicas" }, { num: "17+", text: "anos de experiência" }, { num: "500+", text: "clientes atendidos" }, { num: "24h", text: "análise de crédito" }];
   return (
     <div className="bg-[var(--color-surface)] border-b border-[var(--color-border)] py-5">
       <div className="max-w-[1200px] mx-auto px-6 md:px-10 flex flex-wrap justify-between gap-4">
@@ -425,7 +425,7 @@ function Numeros() {
   const items = [
     { num: "140+", label: "Assistências Técnicas" },
     { num: "17+", label: "Anos de Experiência" },
-    { num: "500+", label: "PMEs Atendidas" },
+    { num: "500+", label: "Clientes Atendidos" },
     { num: "30%", label: "Economia em Manutenção" },
   ];
   return (
@@ -685,7 +685,7 @@ function Footer() {
       <div className="max-w-[1200px] mx-auto px-6 md:px-10 py-16 grid md:grid-cols-[2fr_1fr_1fr] gap-12">
         <div>
           <Image src="/images/logo.png" alt="Kratux" width={280} height={64} className="h-16 w-auto opacity-60 mb-6" />
-          <p className="text-[17px] text-[var(--color-muted)] leading-relaxed max-w-xs">Máquinas pesadas para PMEs. Qualidade de ponta, preço competitivo e o pós-venda que o seu negócio merece.</p>
+          <p className="text-[17px] text-[var(--color-muted)] leading-relaxed max-w-xs">Máquinas pesadas com qualidade de ponta, preço competitivo e o pós-venda que o seu negócio merece.</p>
         </div>
         <div>
           <h4 className="text-[11px] font-bold text-[var(--color-muted)] uppercase tracking-[2px] mb-6">Navegação</h4>
