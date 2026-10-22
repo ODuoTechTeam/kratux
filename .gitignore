@@ -46,3 +46,8 @@ next-env.d.ts
 .ftp-credentials.*
 !.ftp-credentials.example
 
+
+*.bak
+*.bak*
+*.original_server_bak
+
